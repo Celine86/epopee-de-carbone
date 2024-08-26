@@ -1,0 +1,16 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    border-top: 0.15rem solid var(--tertiary);
+}
+.socialIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0.15rem 0;
+}
+.socialIconsImg {
+    width: 22px;
+    height: auto;
+}

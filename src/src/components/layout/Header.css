@@ -1,0 +1,33 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 0.15rem solid var(--tertiary);
+}
+.mainLogo {
+    width: 1.5rem;
+    height: auto;
+}
+.website {
+    width: 1.5rem;
+    height: auto;
+}
+.containerNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.headerElmt{
+    width: 10rem;
+}
+.containerMytitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.mytitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--secondary);
+}
