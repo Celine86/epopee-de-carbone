@@ -1,0 +1,17 @@
+.eraser {
+    width: 2rem;
+    height: auto;
+    align-self: flex-end;
+}
+.eraser:hover {
+    cursor: pointer;
+}
+.blocNotes {
+    background-color: var(--primary-bg-color);
+    border: 0.15rem solid var(--secondary);
+    color: var(--primary);
+}
+textarea:focus {
+    border: 0.15rem solid var(--tertiary);
+    outline: none;
+}

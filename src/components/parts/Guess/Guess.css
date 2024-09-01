@@ -1,0 +1,21 @@
+form {
+    align-self: center;
+    padding-bottom: 0.5rem;
+}
+input[type='text'] {
+    min-width: 5rem;
+    height: 1rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 0.15rem solid var(--secondary);
+    background-color: var(--primary-bg-color);
+    color: var(--primary);
+}
+input[type='text']:focus {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 0.15rem solid var(--tertiary);
+    outline: none;
+}

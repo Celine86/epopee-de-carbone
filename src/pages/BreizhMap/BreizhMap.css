@@ -1,0 +1,25 @@
+.mapBzh {
+    margin: auto;
+}
+.mapBzhPlayOptions {
+    display: flex;
+    flex-direction: column;
+}
+.mapBzhMarker {
+    max-width: 1.25rem;
+}
+.mapBzhMarkers {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 0.5rem;
+}
+.notepad {
+    width: 65%;
+    height: auto;
+    align-self: center;
+}
+@media (max-width: 1024px) {
+    .notepad {
+        width: 80%;;
+    }
+}

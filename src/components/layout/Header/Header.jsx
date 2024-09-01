@@ -3,6 +3,7 @@ import catGreen from '/cat-green.png';
 import catYellow from '/cat-yellow.png';
 import catPawGreen from '/bigCatPaw-green.png';
 import catPawYellow from '/bigCatPaw-yellow.png';
+import { NavLink } from 'react-router-dom';
 
 export function Header() {
     return (
@@ -10,13 +11,15 @@ export function Header() {
         <div id='modal'></div>
         <header>
             <div className='headerElmt'>
+                <NavLink to='/'>
                 <img className='website' src={catPawGreen}
                     onMouseOver={e => e.currentTarget.src = catPawYellow}
                     onMouseOut={e => e.currentTarget.src = catPawGreen}
                 />
+                </NavLink>
             </div>
             <div className='headerElmt containerMytitle'>
-                <h1 className='mytitle'>Be A Cat</h1>
+                <p className='mytitle'>Carbone</p>
             </div>
             <div className='headerElmt containerNav'>
                 <a target='_blank' href='https://lilineslab.fr'>

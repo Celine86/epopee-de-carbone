@@ -21,8 +21,8 @@ export function BreizhMap() {
   };
 
   return (
-    <div style={{ height: '100vh', width: '100%', margin: 'auto' }}>
-      <Map defaultCenter={[48.817822, -3.040615]} defaultZoom={12} height={600}>
+    <div /*style={{ height: '100vh', width: '100%', margin: 'auto' }}*/>
+      <Map defaultCenter={[48.817822, -3.040615]} defaultZoom={12} height={500}>
         {markers.map(marker => (
           <Marker
             key={marker.id}
@@ -36,8 +36,8 @@ export function BreizhMap() {
             <div
               style={{
                 backgroundColor: '#182534',
-                padding: '10px',
-                borderRadius: '5px',
+                padding: '0.15rem',
+                borderRadius: '0.25rem',
                 //boxShadow: '0 2px 10px rgba(0, 0, 0, 0.2)',
                 textAlign: 'center',
               }}
