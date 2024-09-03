@@ -1,0 +1,11 @@
+.main404 {
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.img404 {
+    width: 25%;
+    height: auto;
+}

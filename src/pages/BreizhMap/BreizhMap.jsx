@@ -22,6 +22,7 @@ export function Board() {
                 </div>
                 <div className='mapBzhPlayOptions notepad'>
                     <Guess />
+                    <p>Prends des notes !</p>
                     <Notepad />
                 </div>
             </div>

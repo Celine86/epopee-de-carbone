@@ -19,3 +19,14 @@ input[type='text']:focus {
     border-bottom: 0.15rem solid var(--tertiary);
     outline: none;
 }
+.result {
+    align-self: center;
+}
+.iconGuess {
+    height: 1.5rem;
+    width: auto;
+    margin-bottom: -0.5rem;
+}
+.iconGuess:hover {
+    cursor: pointer;
+}

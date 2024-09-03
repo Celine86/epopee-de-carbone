@@ -5,8 +5,8 @@ const markers = [
   { id: 1, name: 'Route de Beg Nod', coords: [48.817822, -3.040615], color: '#0072B2', description: 'Aperçu le 28 août à 19h30', img: '/Carbone_Young.jpeg', link: 'https://lilineslab.fr' },
   { id: 2, name: 'Two', coords: [48.80745787519335, -3.054176270416763], color: '#CC0000', img: null },
   { id: 3, name: 'Three', coords: [48.814228, -3.054241], color: '#FFAA00', img: null },
-  { id: 4, name: 'En route pour Brehat !', coords: [48.823031, -3.012668], color: '#009E73', img: null },
-  { id: 5, name: "Le phare du Paon, c'est joli ici !", coords: [48.865329, -2.985839], color: '#009E73', img: null },
+  //{ id: 4, name: 'En route pour Brehat !', coords: [48.823031, -3.012668], color: '#009E73', img: null },
+  { id: 5, name: "Le phare du Paon", coords: [48.865329, -2.985839], description: `Le 2 septembre un chat noir portant un bonnet rouge a été aperçu en train de faire une sieste au soleil`, color: '#009E73', img: null },
 ];
 
 export function BreizhMap() {
@@ -36,7 +36,7 @@ export function BreizhMap() {
             <div
               style={{
                 backgroundColor: '#182534',
-                padding: '0.15rem',
+                padding: '0.5rem',
                 borderRadius: '0.25rem',
                 //boxShadow: '0 2px 10px rgba(0, 0, 0, 0.2)',
                 textAlign: 'center',
@@ -46,7 +46,9 @@ export function BreizhMap() {
               {/* <p>Coords : {selectedMarker.coords.join(', ')}</p> */}
               <p>{selectedMarker.description}</p>
               {selectedMarker.img !== null ? (
-                <a target='_blank' href={selectedMarker.link}><img src={selectedMarker.img} style={{with: '5rem', height: '5rem' }}/></a>
+                //<a target='_blank' href={selectedMarker.link}>
+                <img src={selectedMarker.img} style={{with: '5rem', height: '5rem' }}/>
+                //</a>
               ) : (<p> </p>)}
             </div>
           </Overlay>

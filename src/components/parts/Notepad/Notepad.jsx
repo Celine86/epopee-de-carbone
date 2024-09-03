@@ -4,7 +4,7 @@ import Eraser from '/Erase.png';
 
 export function Notepad() {
 
-    const localNotes = localStorage.getItem("notes") === null ? "Prends des Notes !" : localStorage.getItem("notes");
+    const localNotes = localStorage.getItem("notes") === null ? '' : localStorage.getItem("notes");
     const [notes, setNotes] = useState(localNotes);
   
     const handleChange = e => {
@@ -14,7 +14,7 @@ export function Notepad() {
 
     const deleteNotes = e => {
         localStorage.removeItem("notes");
-        setNotes('Prends des Notes !');
+        setNotes('');
     };
 
     return (
