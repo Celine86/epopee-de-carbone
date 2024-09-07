@@ -1,0 +1,27 @@
+.mapCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 10rem;
+    background-color: var(--primary-bg-color);
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    text-align: center;
+}
+.mapImg {
+    width: 5rem;
+    height: auto;
+}
+.mapNavlink {
+    color: var(--secondary);
+    text-decoration: none;
+}
+.mapNavlink:hover {
+    color: var(--tertiary);
+}
+.mapTitle {
+    color: var(--secondary);
+    font-weight: bold;
+    text-transform: uppercase;
+}

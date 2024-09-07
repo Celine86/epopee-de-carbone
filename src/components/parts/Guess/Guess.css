@@ -19,8 +19,15 @@ input[type='text']:focus {
     border-bottom: 0.15rem solid var(--tertiary);
     outline: none;
 }
-.result {
+.notfound {
     align-self: center;
+    color: var(--nok);
+    font-weight: bold;
+}
+.found {
+    align-self: center;
+    color: var(--ok);
+    font-weight: bold;
 }
 .iconGuess {
     height: 1.5rem;
