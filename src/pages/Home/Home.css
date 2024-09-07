@@ -1,0 +1,42 @@
+.homeTitle {
+    text-align: center;
+    padding: 1rem 0;
+}
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 85vh;
+}
+.homePresentation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.homeImg {
+    width: 30%;
+    height: auto;
+}
+.homeP {
+    padding: 1rem;
+    font-size: 1.15rem;
+    text-align: center;
+}
+.homeNavlink {
+    padding: 1rem;
+    font-size: 1.15rem;
+    text-align: center;
+}
+@media only screen and (max-width : 934px) {
+    .homePresentation {
+        flex-direction: column;
+    }
+    .homeImg {
+        width: 50%;
+    }
+    .homeP {
+        text-align: center;
+    }
+}

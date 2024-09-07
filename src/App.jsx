@@ -6,6 +6,7 @@ import { General } from './components/layout/General.jsx';
 import { Home } from './pages/Home/Home.jsx';
 import { Board } from './pages/BreizhMap/BreizhMap.jsx';
 import { Found } from './pages/Found/Found.jsx';
+import { HowTo } from './pages/HowTo/HowTo.jsx';
 import { Page404 } from './pages/Page404/Page404.jsx';
 
 function App() {
@@ -25,6 +26,10 @@ function App() {
         {
           path: '/found',
           element: <Found />,
+        },
+        {
+          path: '/howto',
+          element: <HowTo />,
         },        
         {
           path: '/404',

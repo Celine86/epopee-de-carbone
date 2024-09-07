@@ -1,6 +1,11 @@
 .mapBzh {
     margin: auto;
 }
+.mapBzhHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 .mapBzhPlayOptions {
     display: flex;
     flex-direction: column;
@@ -17,6 +22,39 @@
     width: 65%;
     height: auto;
     align-self: center;
+}
+.mapBzhQuestionMark {
+    max-width: 1.5rem;
+    max-height: 1.5rem;
+    padding: 1rem 0;
+}
+.mapBzhQuestionMark:hover {
+    cursor: pointer;
+}
+.mapBzhTooltip {
+    position: relative;
+    display: inline-block;
+}
+.mapBzhTooltip .mapBzhTooltiptext {
+    visibility: hidden;
+    width: 5rem;
+    height: auto;
+    background-color: var(--primary-bg-color);
+    color: var(--secondary);
+    text-align: center;
+    border-radius: 0.15rem;
+    padding: 0.15rem;
+    position: absolute;
+    z-index: 1;
+    top: 0.5rem;
+    right: 120%;
+    border: 0.15rem solid var(--tertiary);
+}
+.mapBzhTooltip:hover .mapBzhTooltiptext {
+    visibility: visible;
+}
+.mapBzhTooltiptext {
+    margin: auto;
 }
 @media (max-width: 1024px) {
     .notepad {

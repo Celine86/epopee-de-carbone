@@ -3,7 +3,6 @@ import './Page404.css';
 import { NavLink } from 'react-router-dom';
 
 export function Page404() {
-
     return (
         <>
             <div className='main404'>

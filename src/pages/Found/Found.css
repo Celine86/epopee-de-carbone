@@ -1,0 +1,15 @@
+.found {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 85vh;
+}
+.foundTitle {
+    color: var(--secondary);
+
+}
+.foundImg {
+    width: 50%;
+    height: auto;
+}
