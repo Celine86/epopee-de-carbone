@@ -1,4 +1,5 @@
 import './BreizhMap.css';
+import { NavLink } from 'react-router-dom';
 import { BreizhMap } from '../../components/parts/Map/Map.jsx';
 import { Notepad } from '../../components/parts/Notepad/Notepad.jsx';
 import { Guess } from '../../components/parts/Guess/Guess.jsx';
@@ -15,7 +16,7 @@ export function Board() {
             <div className='mapBzhHeader'>
                 <h1>Retrouve Carbone !</h1>
                 <div className='mapBzhTooltip'>
-                    <img className='mapBzhQuestionMark ' src={QuestionMark}></img>
+                    <NavLink to='/howto'><img className='mapBzhQuestionMark ' src={QuestionMark}></img></NavLink>
                     <span class='mapBzhTooltiptext'>Comment jouer ?</span>
                 </div>
             </div>

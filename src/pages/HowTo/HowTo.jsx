@@ -1,5 +1,6 @@
-import Tuto from '/Tuto.png';
 import './HowTo.css';
+import Tuto from '/Tuto.png';
+import { NavLink } from 'react-router-dom';
 
 export function HowTo() {
     return (
@@ -10,6 +11,7 @@ export function HowTo() {
                 Tente ta chance en entrant le nom du lieu (5) et clique pour savoir si c'est juste (6).<br />
                 Tourne ton téléphone pour mieux voir l'image !
             </p>
+            <p className='howtoNavlink'><NavLink className='generalNavlink' to='/board'>Je retourne jouer !</NavLink></p>
             <img className='howtoImg' src={Tuto} />
         </div>
     )
